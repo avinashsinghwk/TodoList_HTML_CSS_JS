@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Your ToDo's</h2>
+    <form>
+        <label for="title">Title</label>
+        <input autofocus autocomplete="off" type="text" name="title" id="title" placeholder="Enter title">
+        <span>Add an item to the list</span>
+        <label for="description">Description</label>
+        <textarea name="description" id="description" placeholder="Enter description"></textarea>
+        <button class="button form_btn" id="form_btn">Add to List</button>
+    </form>
+    <section class="items">
+        <h2>Your Items</h2>
+        <div class="list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+</body>
+<script src="script.js"></script>
+</html>
+
